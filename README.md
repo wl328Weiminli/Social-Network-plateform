@@ -10,7 +10,7 @@ Backend
 * deploy the frontend on the amazon amplify
 
 ## deploy at
-https://main.d2o92zkuj32qvl.amplifyapp.com/login
+https://main.d2rpjckf5nqy94.amplifyapp.com
 
 ## Effect
 ![app](app.jpg)
