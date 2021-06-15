@@ -26,6 +26,7 @@ function Main(props) {
     return (
         <div className="main">
             <Switch>
+                <Route path="/" exact render={showLogin} />
                 <Route path="/login" render={showLogin} />
                 <Route path="/register" component={Register} />
                 <Route path="/home" render={showHome} />

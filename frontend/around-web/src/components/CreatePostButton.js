@@ -33,7 +33,7 @@ class CreatePostButton extends Component {
                     let formData = new FormData();
                     formData.append("message", description);
                     formData.append("media_file", originFileObj);
-
+                    console.log(formData);
                     const opt = {
                         method: "POST",
                         url: `${BASE_URL}/upload`,
